@@ -1,14 +1,15 @@
 import { StyleSheet } from 'react-native'
-
 import { theme } from '../../global/styles/theme'
 
 export const styles = StyleSheet.create({
    container: {
-      width: '75%',
-      height: 1,
+      width: '100%',
+      height: 95,
       backgroundColor: theme.colors.secondary40,
-      marginBottom: 30,
-      alignSelf: 'flex-end'
-   },
-   
+      color: theme.colors.heading,
+      borderRadius: 8,
+      fontFamily: theme.fonts.text400,
+      fontSize: 13,
+      marginRight: 4,
+   }
 })
