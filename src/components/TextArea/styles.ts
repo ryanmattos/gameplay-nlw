@@ -11,5 +11,10 @@ export const styles = StyleSheet.create({
       fontFamily: theme.fonts.text400,
       fontSize: 13,
       marginRight: 4,
+      borderWidth: 1,
+      borderColor: theme.colors.secondary50,
+      padding: 16,
+      paddingVertical: 18,
+      textAlignVertical: 'top'
    }
 })

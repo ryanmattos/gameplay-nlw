@@ -68,10 +68,9 @@ export function Home() {
             setCategory={handleCategorySelect}
          />
 
-         <View style={styles.content}>
-            <ListHeader title="Partidas agendadas" subtitle="total 2"/>
-
-            <FlatList 
+         <ListHeader title="Partidas agendadas" subtitle="total 2"/>
+         
+         <FlatList 
                data={appointments}
                keyExtractor={item => item.id}
                renderItem={({ item }) => (
@@ -80,11 +79,11 @@ export function Home() {
                      onPress={handleAppointmentDetails}
                   />
                )}
+               contentContainerStyle={{paddingBottom: 69}}
                ItemSeparatorComponent={() => <ListDivider />}
                style={styles.matches}
                showsVerticalScrollIndicator={false}
             />
-         </View>
       </Background>
    )
 }
