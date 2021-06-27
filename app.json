@@ -28,6 +28,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A Mobile app that allows you to schedule your game plays with your friends from discord",
+    "githubUrl": "https://github.com/ryanmattos/gameplay-nlw"
   }
 }
