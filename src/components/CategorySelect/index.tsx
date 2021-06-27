@@ -12,11 +12,7 @@ interface Props {
    hasCheckBox?: boolean;
 }
 
-export function CategorySelect({
-   categorySelected, 
-   setCategory, 
-   hasCheckBox = false}: Props
-) {
+export function CategorySelect({ categorySelected, setCategory, hasCheckBox = false}: Props) {
    return (
       <ScrollView 
          horizontal 
